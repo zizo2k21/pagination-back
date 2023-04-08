@@ -4,9 +4,7 @@
   "description": "",
   "type": "module",
   "main": "app.js",
-  "engines": {
-    "node": "16.x"
-  },
+  
   "scripts": {
     "start":"node app.js",
     "dev": "npx nodemon app.js"
