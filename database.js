@@ -20,7 +20,7 @@ export const testFunction = (async (req, res)=>{
         const page = parseInt(req.query.page) || 1;
         const limit = parseInt(req.query.limit) || 10;
         const offset = (page - 1) * limit;
-        const sort = req.query.sort || 'film_id';
+        const sort = req.query.sort || 'name';
         const order = req.query.order || 'ASC';
         let alias;
         switch (sort) {
